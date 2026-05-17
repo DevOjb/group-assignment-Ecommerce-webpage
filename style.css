@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #f5f5f5;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+    background: white;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-icons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.cart-btn{
+    padding: 10px 20px;
+    border: none;
+    background: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+
+.model{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 60px;
+
+    background: #efc89d;
+}
+
+.model-text{
+    width: 50%;
+}
+
+.model-text h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.model-text p{
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.model-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.purchase-btn{
+    padding: 12px 25px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-btn{
+    padding: 12px 25px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.model-image img{
+    width: 450px;
+}
+
+/* FEATURES */
+
+.features{
+    display: flex;
+    justify-content: space-around;
+
+    background: #f5e7c9;
+
+    padding: 30px 50px;
+}
+
+.feature-box{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.feature-box i{
+    font-size: 30px;
+    color: orange;
+}
+
+/* PRODUCTS */
+
+.collection{
+    padding: 60px;
+}
+
+.collection h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.collection p{
+    margin-bottom: 40px;
+    color: gray;
+}
+
+.products{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+
+    object-fit: contain;
+}
+
+.card h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: black;
+    font-weight: bold;
+}
